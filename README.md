@@ -4,10 +4,11 @@ Block builder. Build in real-time with OpenGL. Capture the moment with POVray.
 ##
 
 ### Screenshot
-![Alt text](http://zentojamorn.github.io/Zego/pics/screenshot1.png "Edit mode")
+![Alt text](http://zentojamorn.github.io/Zego/pics/screenshot1.png "Edit mode 1")
 
-![Alt text](http://zentojamorn.github.io/Zego/pics/screenshot2.png "Final rendered")
+![Alt text](http://zentojamorn.github.io/Zego/pics/screenshot2.png "Edit mode 2")
 
+![Alt text](http://zentojamorn.github.io/Zego/pics/screenshot3.png "Final rendered")
 ##
 
 ### External Library
