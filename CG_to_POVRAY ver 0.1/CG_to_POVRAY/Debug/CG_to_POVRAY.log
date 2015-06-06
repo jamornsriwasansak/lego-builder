@@ -1,0 +1,47 @@
+﻿Build started 10/6/2013 7:27:39 PM.
+     1>Project "C:\Users\0oAimZo0\Dropbox\CGproject\CG_to_POVRAY ver 0.1\CG_to_POVRAY\CG_to_POVRAY.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CG_to_POVRAY.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CG_to_POVRAY.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CG_to_POVRAY.cpp Lego.cpp PovExp.cpp
+     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+         CG_to_POVRAY.cpp
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\cg_to_povray.cpp(4): fatal error C1041: cannot open program database 'c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\debug\vc120.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Lego.cpp
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(1): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(2): warning C4627: '#include <stdlib.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(3): warning C4627: '#include <algorithm>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(5): warning C4627: '#include <OpenGL/OpenGL.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(6): warning C4627: '#include <GLUT/glut.h>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(8): warning C4627: '#include "GL/glut.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(10): warning C4627: '#include "Lego.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(11): warning C4627: '#include <vector>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\lego.cpp(131): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         PovExp.cpp
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(1): warning C4627: '#include "PovExp.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(3): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(4): warning C4627: '#include <vector>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(5): warning C4627: '#include <fstream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(6): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(35): error C2010: ')' : unexpected in macro formal parameter list
+     1>c:\users\0oaimzo0\dropbox\cgproject\cg_to_povray ver 0.1\cg_to_povray\povexp.cpp(157): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "C:\Users\0oAimZo0\Dropbox\CGproject\CG_to_POVRAY ver 0.1\CG_to_POVRAY\CG_to_POVRAY.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:19.30
